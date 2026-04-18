@@ -1,0 +1,22 @@
+data_root: "data/tiny-imagenet-200"
+batch_size: 256
+num_workers: 8
+
+num_classes: 200
+dropout_fc: 0.5
+
+epochs: 200
+optimizer: "sgd"
+lr: 0.1
+momentum: 0.9
+weight_decay: 1.0e-4
+nesterov: true
+scheduler: "cosine"
+warmup_epochs: 5
+T_max: 200
+eta_min: 1.0e-5
+label_smoothing: 0.1
+
+checkpoint_dir: "checkpoints"
+log_dir: "logs"
+log_interval: 50
