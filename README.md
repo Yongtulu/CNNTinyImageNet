@@ -15,7 +15,7 @@ Built with PyTorch, optimized for Apple Silicon (MPS).
 | Parameters | 7,779,976 |
 | Training Time | ~3 hours (200 epochs, Apple M-series) |
 
-Trained for 200 epochs. No pretrained weights, no transfer learning.
+Trained for 100 epochs. No pretrained weights, no transfer learning.
 
 ---
 
